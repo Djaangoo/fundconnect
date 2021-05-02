@@ -1,9 +1,8 @@
-import { ComponentCustomProperties } from 'vue'
+import { defineComponent } from 'vue'
 import { Store } from 'vuex'
 import { IState } from './core/store/modules/Investment'
 
 declare module '*.vue' {
-    import { defineComponent } from 'vue'
     const Component: ReturnType<typeof defineComponent>
     export default Component
 }
