@@ -7,7 +7,7 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "vetur.format.defaultFormatter.js": "prettier-eslint",
-    "editor.defaultFormatter": "octref.vetur",
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true
 }

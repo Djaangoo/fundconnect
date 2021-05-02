@@ -11,7 +11,9 @@ app.use(store)
 app.use(router)
 
 // global components
-import Butt from './shared/components/Butt.vue'
-app.component('Butt', Butt)
+import Button from './shared/components/Button.vue'
+import Loader from './shared/components/Loader.vue'
+app.component('Button', Button)
+app.component('Loader', Loader)
 
 app.mount('#app')
