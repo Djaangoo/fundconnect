@@ -1,0 +1,13 @@
+{
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "editor.defaultFormatter": "octref.vetur",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}
