@@ -1,0 +1,7 @@
+@import './index.scss';
+@import './fonts.scss';
+
+body {
+    @include fontFamily('primary');
+    font-weight: getFontWeight('light');
+}

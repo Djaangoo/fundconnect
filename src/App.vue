@@ -11,7 +11,7 @@
 
 <style>
 @font-face {
-  font-family: nunito;
-  src: url(./assets/Nunito-Regular.ttf);
+    font-family: nunito;
+    src: url(./assets/Nunito-Regular.ttf);
 }
 </style>
