@@ -1,18 +1,15 @@
+import { AxiosInstance } from 'axios'
 import { defineComponent } from 'vue'
 import { Store } from 'vuex'
-import { IState } from './core/store/modules/Investment'
+import { IRootState } from './model/interfaces'
 
 declare module '*.vue' {
     const Component: ReturnType<typeof defineComponent>
     export default Component
 }
 declare module '@vue/runtime-core' {
-  // Declare your own store states.
-  interface State {
-    investment: IState
-  }
-
-  interface ComponentCustomProperties {
-    $store: Store<State>
-  }
+    interface ComponentCustomProperties {
+        $store: Store<IRootState>
+        axios: AxiosInstance
+    }
 }

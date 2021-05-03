@@ -3,6 +3,9 @@ import Investment from './modules/Investment'
 
 export default createStore({
     modules: {
-        investment: Investment
+        investment: {
+            namespaced: true,
+            ...Investment
+        }
     }
 })
